@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pull Request</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script
+      src="https://kit.fontawesome.com/66f5e943e2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+  <header class="ancho">
+    <div class="ancho" id="logo">
+      <figure>
+        <img src="imagenes/pullrequest-logo.svg" alt="" />
+      </figure>
+    </div>
+  </header>
+
+    <div class="ancho" id="contenedor_menu">
+      <a href="#" id="menu">
+        <i class="fas fa-bars fa-1x"></i>
+      </a>
+    </div>
+    <nav class="ancho">
+      <a href="#">Inicio</a>
+      <a href="#">Empresa</a>
+      <a href="#">Servicios</a>
+      <a href="#">Clientes</a>
+      <a href="#">Ubicacion</a>
+      <a href="#">Contactanos</a>
+    </nav> <!--Estas de arriba son las opciones del menu-->
+
+  <body>
+    <section class="ancho" id="contenedor">
+      <article class="info">
+        <h1>Creacion de paginas web</h1>
+        <h3>Curso básico de HTML5 y CSS3</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+          voluptates hic animi praesentium nulla cumque aliquam optio obcaecati
+          alias, quos voluptatem officia ullam adipisci assumenda architecto
+          ipsa voluptate nihil totam.
+        </p>
+        <br />
+        <a href="#">Ver</a>
+      </article>
+
+      <div class="foto">
+        <img src="imagenes/foto_pullrequest.svg" alt="" />
+      </div>
+    </section>
+    <footer class="ancho">
+      <a href="">@Rogelio Pech</a>
+    </footer>
+    
+
+    <script>
+      //SCRIPT PARA EL MENU DESPLEGABLE
+      
+      $("#menu").click(function (){
+        $("nav").slideToggle();
+      });
+    </script>
+  </body>
+</html>
